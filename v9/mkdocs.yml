@@ -1,0 +1,32 @@
+site_name: MAGELLAN 9 Datenstruktur
+site_description: 'MAGELLAN 9 Datenstruktur'
+site_author: 'STÜBER SYSTEMS GmbH'
+
+copyright: Copyright &copy; 2023 STÜBER SYSTEMS GmbH
+
+theme: 
+  name: material
+  language: de
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.sections   
+    - search.highlight    
+  static_templates:
+    - 404.html
+
+extra:
+  version:
+    provider: mike
+    
+plugins:
+  - search
+  - awesome-pages
+  
+markdown_extensions:
+  - def_list
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg  

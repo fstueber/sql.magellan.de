@@ -1,0 +1,63 @@
+# Tabelle **Zeugnisformulare**
+
+
+
+## Spalten
+
+Diese Tabelle hat 5 Spalten.
+
+**`Mandant`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
+
+    
+
+**`ID`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
+
+    
+
+**`Bezeichnung`**
+
+:   [`VARCHAR(50)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
+
+    
+
+**`Dateiname`**
+
+:   [`VARCHAR(100)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
+
+    
+
+**`Typ`**
+
+:   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
+
+    
+
+## Primärschlüssel
+
+Diese Tabelle hat einen Primärschlüssel.
+
+**`PK_ZEUGNISFORMULARE`**
+
+:   `Mandant, ID`
+
+    
+
+## Indizes
+
+Diese Ansicht hat 2 Indizes.
+
+**`FK_ZEUGNISFRM_MANDANT`**
+
+:   `Mandant`
+
+    
+
+**`PK_ZEUGNISFORMULARE`**
+
+:   `Mandant, ID`
+
+    
